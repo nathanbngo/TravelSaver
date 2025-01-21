@@ -1,0 +1,90 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  .App-header {
+    background-color: #4caf50;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  .section {
+    padding: 2em;
+    margin: 1em auto;
+    max-width: 600px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section h2 {
+    margin-bottom: 1em;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"] {
+    display: block;
+    width: 100%;
+    margin: 0.5em 0;
+    padding: 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 0.75em 1.5em;
+    margin: 0.5em 0;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .destination-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .destination-item {
+    padding: 1em;
+    border: 1px solid #ddd;
+    margin-bottom: 1em;
+    border-radius: 4px;
+    background-color: #fafafa;
+  }
+  
+  button {
+    margin-top: 0.5em;
+    background-color: #008cba;
+  }
+  
+  button:hover {
+    background-color: #007bb5;
+  }
+  
+  .create-user-button {
+    background-color: #ff9800;
+  }
+  
+  .create-user-button:hover {
+    background-color: #e68900;
+  }
+  
+  .message {
+    margin-top: 1em;
+    color: #4caf50;
+    font-weight: bold;
+  }
+  

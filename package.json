@@ -1,0 +1,25 @@
+{
+    "name": "travel-saver",
+    "version": "1.0.0",
+    "description": "TravelSaver App",
+    "main": "travel_saver_backend.js",
+    "scripts": {
+      "start": "node travel_saver_backend.js",
+      "seed": "node db_seed.js",
+      "frontend": "react-scripts start"
+    },
+    "dependencies": {
+      "axios": "^1.0.0",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.0",
+      "express": "^4.18.2",
+      "mongoose": "^7.0.0",
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0",
+      "react-scripts": "^5.0.0"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.0"
+    }
+  }
+  
