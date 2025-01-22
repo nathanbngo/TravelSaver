@@ -15,7 +15,6 @@ const seedData = async () => {
 
     const users = [
       { username: 'nathan', email: 'nathan@example.com', savedDestinations: [] },
-      { username: 'kevin', email: 'kevin@example.com', savedDestinations: [] },
     ];
 
     await User.insertMany(users);
